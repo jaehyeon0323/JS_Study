@@ -106,7 +106,7 @@ async function fetchData() {
 fetchData().then(data => console.log(data)); // "Data loaded!"
 }
 ```
-## Object.entries()와 Object.values()
+## Object.entries()와 Object.values(), Object.keys()
 객체의 키-값 쌍 또는 값만 배열로 반환하는 메서드.
 ```javascript
 const person = { name: "Jaehyeon", age: 25 };
